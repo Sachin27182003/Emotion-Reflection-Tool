@@ -23,8 +23,6 @@ A web-based application that analyzes user reflections to detect emotional tone 
 
 ## 🚀 Getting Started
 
-### 📁 Project Structure
-
 ## 📁 Project Structure
 
 ```text
@@ -95,25 +93,16 @@ npm install
 # Start the dev server
 npm run dev
 #Runs at: http://localhost:5173
+---
 
-📌 Final Notes
-The backend is modular with proper folders for api, controllers, services, etc.
+🙏 Thank You
+Thank you for checking out the Emotion Reflection Tool!
+We hope it helps you reflect, grow, and understand your emotions better.
 
-Frontend is built with TypeScript + TailwindCSS for a clean UI.
+Feel free to fork, star ⭐, or contribute to make it better!
 
-The emotion analysis is mocked — you can later replace it with real NLP.
+This project is built with ❤️ for emotional well-being.
+Happy building! 🚀
 
-## 📌 Final Notes
-
-Thank you for checking out the Emotion Reflection Tool!  
-We hope it helps you reflect, grow, and understand your emotions better.  
-Feel free to fork, star ⭐, and contribute!
-
-## 🙏 Thank You
-
-This project is built with ❤️ to help people reflect on their emotions.  
-We welcome feedback, contributions, and creative ideas!
-
-Happy coding! 🚀
 
 
