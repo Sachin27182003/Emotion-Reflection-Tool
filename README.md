@@ -73,8 +73,13 @@ cd backend
 
 # (Optional) Create a virtual environment
 python -m venv venv
-source venv/bin/activate  
-# On Windows: venv\Scripts\activate
+.\venv\Scripts\Activate.ps1         # <-- For PowerShell users
+# or
+venv\Scripts\activate.bat           # <-- For CMD users
+
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
+
 
 # Install dependencies
 pip install -r requirements.txt
