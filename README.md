@@ -27,32 +27,37 @@ A web-based application that analyzes user reflections to detect emotional tone 
 
 emotion-reflection-tool/
 ├── backend/
-│ ├── app ──│
-│ │         │── api ─> emotion.py
-│ │         │── controllers ─> emotion_controller.py
-│ │         │── core ─> config.py
-│ │         │── models ─> schemas.py
-│ │         │── services ─> emotion_service.py
-│ │         │── main.py
-│ │         │
-│ ├── venv ──│ ─> ...files
-│ │          
-│ └── requirements.txt
+│   ├── app/
+│   │   ├── api/               # FastAPI route definitions
+│   │   │   └── emotion.py
+│   │   ├── controllers/       # Business logic
+│   │   │   └── emotion_controller.py
+│   │   ├── core/              # Config, env, startup files
+│   │   │   └── config.py
+│   │   ├── models/            # Pydantic schemas
+│   │   │   └── schemas.py
+│   │   ├── services/          # Logic or external calls
+│   │   │   └── emotion_service.py
+│   │   └── main.py            # App entry point
+│   ├── requirements.txt
+│   └── venv/ (optional, ignored in .gitignore)
+│
 ├── frontend/
-│ ├── src/ ──│
-│ │          │── components ─> Background.tsx
-│ │          │── Pages ─> Homepage.tsx
-│ │          │── App.tsx
-│ │          │── index.css
-│ │          │── index.tsx
-│ │          │── ...
-│ │   
-│ ├── public/
-│ ├── package.json
-│ ├── package-lock.json
-│ └── ...
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Background.tsx
+│   │   ├── pages/
+│   │   │   └── Homepage.tsx
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   │   └── index.css
+│   ├── public/
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── .gitignore
 ├── README.md
-└── ...
+
 
 
 ---
