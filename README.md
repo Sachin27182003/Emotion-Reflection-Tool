@@ -25,9 +25,42 @@ A web-based application that analyzes user reflections to detect emotional tone 
 
 ### 📁 Project Structure
 
-<pre lang="text"> ```text emotion-reflection-tool/ ├── backend/ │ ├── app/ │ │ ├── api/ # FastAPI route definitions │ │ │ └── emotion.py │ │ ├── controllers/ # Business logic │ │ │ └── emotion_controller.py │ │ ├── core/ # Config, env, startup files │ │ │ └── config.py │ │ ├── models/ # Pydantic schemas │ │ │ └── schemas.py │ │ ├── services/ # Logic or external calls │ │ │ └── emotion_service.py │ │ └── main.py # App entry point │ ├── requirements.txt │ └── venv/ (ignored in .gitignore) │ ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ │ └── Background.tsx │ │ ├── pages/ │ │ │ └── Homepage.tsx │ │ ├── App.tsx │ │ ├── index.tsx │ │ └── index.css │ ├── public/ │ ├── package.json │ └── tsconfig.json │ ├── .gitignore ├── README.md ``` </pre>
+## 📁 Project Structure
 
----
+```text
+emotion-reflection-tool/
+├── backend/
+│   ├── app/
+│   │   ├── api/                 # FastAPI route definitions
+│   │   │   └── emotion.py
+│   │   ├── controllers/         # Business logic
+│   │   │   └── emotion_controller.py
+│   │   ├── core/                # Config, env, startup files
+│   │   │   └── config.py
+│   │   ├── models/              # Pydantic schemas
+│   │   │   └── schemas.py
+│   │   ├── services/            # Logic or external calls
+│   │   │   └── emotion_service.py
+│   │   └── main.py              # App entry point
+│   ├── requirements.txt
+│   └── venv/ (ignored in .gitignore)
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Background.tsx
+│   │   ├── pages/
+│   │   │   └── Homepage.tsx
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   │   └── index.css
+│   ├── public/
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── .gitignore
+├── README.md
+```
 
 ## 📦 Installation
 
@@ -50,6 +83,7 @@ pip install -r requirements.txt
 
 # Start FastAPI server
 uvicorn main:app --reload --port 8000
+#Runs at: http://localhost:8000
 
 ▶️ Start the Frontend (React + TypeScript) App
 
@@ -60,6 +94,14 @@ npm install
 
 # Start the dev server
 npm run dev
+#Runs at: http://localhost:5173
+
+📌 Final Notes
+The backend is modular with proper folders for api, controllers, services, etc.
+
+Frontend is built with TypeScript + TailwindCSS for a clean UI.
+
+The emotion analysis is mocked — you can later replace it with real NLP.
 
 ## 📌 Final Notes
 
