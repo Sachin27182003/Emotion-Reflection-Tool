@@ -85,7 +85,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Start FastAPI server
-uvicorn main:app --reload --port 8000
+uvicorn app.main:app --reload --port 8000
 #Runs at: http://localhost:8000
 
 ▶️ Start the Frontend (React + TypeScript) App
@@ -95,9 +95,9 @@ cd frontend
 # Install dependencies
 npm install
 
-# Start the dev server
-npm run dev
-#Runs at: http://localhost:5173
+# Start the server
+npm start
+#Runs at: http://localhost:3000/
 ---
 
 🙏 Thank You
