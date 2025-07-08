@@ -71,15 +71,15 @@ cd Emotion-Reflection-Tool
 ▶️ Start the Backend (FastAPI Python API)
 cd backend
 
-# (Optional) Create a virtual environment
+#Create a virtual environment for Windows user
 python -m venv venv
 .\venv\Scripts\Activate.ps1         # <-- For PowerShell users
 # or
 venv\Scripts\activate.bat           # <-- For CMD users
 
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-
+#Create a virtual environment for macOS and Linux user
+python3 -m venv venv
+source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
