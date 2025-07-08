@@ -98,6 +98,8 @@ npm install
 # Start the server
 npm start
 #Runs at: http://localhost:3000/
+```
+
 ---
 
 🙏 Thank You
@@ -108,6 +110,6 @@ Feel free to fork, star ⭐, or contribute to make it better!
 
 This project is built with ❤️ for emotional well-being.
 Happy building! 🚀
-
+---
 
 
