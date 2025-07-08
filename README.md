@@ -25,9 +25,7 @@ A web-based application that analyzes user reflections to detect emotional tone 
 
 ### 📁 Project Structure
 
-<pre> ```bash emotion-reflection-tool/ ├── backend/ │ ├── app/ │ │ ├── api/ # FastAPI route definitions │ │ │ └── emotion.py │ │ ├── controllers/ # Business logic │ │ │ └── emotion_controller.py │ │ ├── core/ # Config, env, startup files │ │ │ └── config.py │ │ ├── models/ # Pydantic schemas │ │ │ └── schemas.py │ │ ├── services/ # Logic or external calls │ │ │ └── emotion_service.py │ │ └── main.py # App entry point │ ├── requirements.txt │ └── venv/ (ignored in .gitignore) │ ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ │ └── Background.tsx │ │ ├── pages/ │ │ │ └── Homepage.tsx │ │ ├── App.tsx │ │ ├── index.tsx │ │ └── index.css │ ├── public/ │ ├── package.json │ └── tsconfig.json │ ├── .gitignore ├── README.md ``` </pre>
-
-
+<pre lang="text"> ```text emotion-reflection-tool/ ├── backend/ │ ├── app/ │ │ ├── api/ # FastAPI route definitions │ │ │ └── emotion.py │ │ ├── controllers/ # Business logic │ │ │ └── emotion_controller.py │ │ ├── core/ # Config, env, startup files │ │ │ └── config.py │ │ ├── models/ # Pydantic schemas │ │ │ └── schemas.py │ │ ├── services/ # Logic or external calls │ │ │ └── emotion_service.py │ │ └── main.py # App entry point │ ├── requirements.txt │ └── venv/ (ignored in .gitignore) │ ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ │ └── Background.tsx │ │ ├── pages/ │ │ │ └── Homepage.tsx │ │ ├── App.tsx │ │ ├── index.tsx │ │ └── index.css │ ├── public/ │ ├── package.json │ └── tsconfig.json │ ├── .gitignore ├── README.md ``` </pre>
 
 ---
 
