@@ -65,6 +65,36 @@ emotion-reflection-tool/
 ### 1️⃣ Clone the repository
 
 ```bash
+
+✅ Prerequisites
+Before you begin, make sure the following tools are installed on your system:
+
+🔧 General Tools
+Git
+→ Download Git https://git-scm.com/downloads
+→ Check: git --version
+
+Python 3.8+
+→ Download Python https://www.python.org/downloads/
+→ Check: python --version or python3 --version
+
+Node.js (v14 or newer) & npm
+→ Download Node.js https://nodejs.org/en/download
+→ Check: node -v, npm -v
+
+🐍 Backend (FastAPI) Specific
+venv module (usually bundled with Python)
+
+pip for installing Python packages
+
+Ports 8000 and 3000 should be free
+
+⚛️ Frontend (React + TypeScript) Specific
+Internet connection to download npm packages
+
+A modern browser (e.g., Chrome)
+
+Now,
 git clone https://github.com/Sachin27182003/Emotion-Reflection-Tool.git
 cd Emotion-Reflection-Tool
 
